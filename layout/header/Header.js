@@ -24,7 +24,7 @@ const Header = () => {
   
 useEffect(() => {
   const updateWindowDimensions = () => {
-    if(window.scrollY >= 300) {
+    if(window.scrollY >= 500) {
       setColorChange(true);
     } else {
       setColorChange(false);   

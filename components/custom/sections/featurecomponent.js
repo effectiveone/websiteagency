@@ -6,7 +6,13 @@ import img1 from "../../../assets/images/features/feature13/img1.jpg";
 import img2 from "../../../assets/images/features/feature13/img2.jpg";
 import img3 from "../../../assets/images/features/feature13/img3.jpg";
 import img4 from "../../../assets/images/features/feature13/img4.jpg";
-import img5 from "../../../assets/images/features/feature30/feature-img.png";
+import Spacer from "../../parallax/Spacer";
+import Reactmodal from "../../../components/modal/Reactmodal.js"
+import Mangodbmodal from "../../modal/Mangodbmodal";
+import Wordpressmodal from "../../modal/Wordpressmodal";
+import Nodemodal from "../../modal/Nodemodal";
+
+
 
 const FeatureComponent = () => {
   return (
@@ -133,11 +139,10 @@ const FeatureComponent = () => {
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
               <span className="label label-info label-rounded">Feature 2</span>
-              <h2 className="title">Awesome with Extra Ordinary Flexibility</h2>
+              <h2 className="title">Podniebna technologia!</h2>
               <h6 className="subtitle">
-                You can relay on our amazing features list and also our customer
-                services will be great experience for you without doubt and in
-                no-time
+                Wiesz co tak naprawdę wpływa na wysoką pozycję w google? Orginalne treści? Niepowtarzalny kod? Wyskalowana kampania marketingowa? Prawda, ale to moe mieć kazdy. Jeśli chcesz wystrzelic w kosmos potrzeba odpowiedniej technologii!
+
               </h6>
             </Col>
           </Row>
@@ -158,15 +163,13 @@ const FeatureComponent = () => {
                       </div>
                       <div>
                         <h5 className="font-medium">
-                          Make your website in no-time with us.
+                         Prerenderowanie oraz jescze lepsze SEO!
                         </h5>
                       </div>
                     </CardBody>
                   </Col>
                   <Col md="4" className="text-center">
-                    <a href="#" className="text-white linking bg-info">
-                      Lets Talk <i className="ti-arrow-right"></i>
-                    </a>
+              <Reactmodal/>
                   </Col>
                 </Row>
               </Card>
@@ -187,15 +190,13 @@ const FeatureComponent = () => {
                       </div>
                       <div>
                         <h5 className="font-medium">
-                          Make your website in no-time with us.
+                          Najpopularniejszy system do zarządzania treścią
                         </h5>
                       </div>
                     </CardBody>
                   </Col>
                   <Col md="4" className="text-center">
-                    <a href="#" className="text-white linking bg-info">
-                      Lets Talk <i className="ti-arrow-right"></i>
-                    </a>
+                   <Wordpressmodal />
                   </Col>
                 </Row>
               </Card>
@@ -216,15 +217,13 @@ const FeatureComponent = () => {
                       </div>
                       <div>
                         <h5 className="font-medium">
-                          Make your website in no-time with us.
+Jeszcze szybszy backend niz kiedykolwiek wczesniej!
                         </h5>
                       </div>
                     </CardBody>
                   </Col>
                   <Col md="4" className="text-center">
-                    <a href="#" className="text-white linking bg-info">
-                      Lets Talk <i className="ti-arrow-right"></i>
-                    </a>
+                 <Nodemodal />  
                   </Col>
                 </Row>
               </Card>
@@ -245,15 +244,13 @@ const FeatureComponent = () => {
                       </div>
                       <div>
                         <h5 className="font-medium">
-                          Make your website in no-time with us.
+Nierelacyjne bazy danych!
                         </h5>
                       </div>
                     </CardBody>
                   </Col>
                   <Col md="4" className="text-center">
-                    <a href="#" className="text-white linking bg-info">
-                      Lets Talk <i className="ti-arrow-right"></i>
-                    </a>
+                  <Mangodbmodal/>
                   </Col>
                 </Row>
               </Card>
@@ -265,11 +262,7 @@ const FeatureComponent = () => {
         <Container className="feature30">
           <Row>
             <Col lg="10">
-              <Image
-                src={img5}
-                className="rounded img-responsive"
-                alt="wrappixel"
-              />
+             <Spacer />
             </Col>
             <Col lg="5" md="7" className="text-center wrap-feature30-box">
               <Card className="card-shadow">

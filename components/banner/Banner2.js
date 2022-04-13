@@ -2,8 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
-import bannerimg from "../../assets/images/landingpage/banner-img.png";
-
+import Rakieta from "../parallax/Rakieta";
 
 
 
@@ -18,7 +17,7 @@ const Banner2 = () => {
               Twórz oszałamiające strony www wraz z effective advisor
             </h1>
             <h4 className="subtitle font-light">
-Z nami Twoja marka wystrzeli w kosmos             
+Z nami Twoja marka wystrzeli w kosmos       !      
             </h4>
             <a
               href="https://wrappixel.com/templates/nextkit-nextjs-free-uikit"
@@ -32,8 +31,9 @@ Z nami Twoja marka wystrzeli w kosmos
               </a>
             </Link>
           </Col>
+
           <Col lg="6" md="6">
-            <Image src={bannerimg} alt="hero banner" />
+<Rakieta/> 
           </Col>
         </Row>
       </Container>

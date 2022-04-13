@@ -2,7 +2,7 @@
 import React from "react";
 import { Row, Col, Container } from "reactstrap";
 import Image from "next/image";
-import herobanner from "../../../assets/images/staticslider/slider/hero-banner.png";
+import Lewitacja from "../../parallax/Lewitacja";
 const BannerComponent = () => {
   return (
     <div>
@@ -41,7 +41,8 @@ Przygotuj firmę na rewolucję cyfrową i zadbaj, aby być widoczny w sieci! Res
               </a>
             </Col>
             <Col md="6">
-              <Image src={herobanner} alt="herobanner"></Image>
+
+<Lewitacja/>
             </Col>
           </Row>
         </Container>
