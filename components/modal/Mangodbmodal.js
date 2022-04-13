@@ -13,15 +13,16 @@ function Mangodbmodal() {
       <Button
         color="danger"
         onClick={handleShow}  >
-    Node JS  </Button>
+   Mangodb </Button>
       <Modal
      isOpen={modal}
      toggle={toggle}  >
         <ModalHeader toggle={toggle}>
-          Node JS
+          Mangodb
         </ModalHeader>
         <ModalBody>
-Jak next js, to backend tylko node! Prawdopodobnie najlepszy moliwy backend, zapewniający ogromną wydajność dzięki jednowątkowej pętli zdarzeń!      </ModalBody>
+Nie wrzucaj wszystkich jajek do jednego koszyka. Z Mangodb moesz swoje wraliwe dane trzymać na kilku serwerach co sprzyja bezpieczeństwu aplikacji!
+   </ModalBody>
         <ModalFooter>
           <Button
             color="primary"
