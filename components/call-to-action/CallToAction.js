@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "reactstrap";
-
+import NewsletterSubscribe from './NewsletterSubscribe';
 const CallToAction = () => {
   return (
     <div className="coming-soon" id="coming">
@@ -10,18 +10,12 @@ const CallToAction = () => {
             <div className="d-flex align-items-center">
               <div>
                 <h2 className="title text-white font-weight-bold">
-                  Pro Version coming soon
+                  Chcesz wiedzieć więcej o nas?
                 </h2>
                 <h6 className="subtitle font-light text-white">
-                  We will add Pro Version with tons of great features and
-                  multiple category demos which is ready to use...
-                </h6>
-                <Button
-                  href="/#coming"
-                  className="btn btn-dark m-r-20 btn-md m-t-30"
-                >
-                  Comming Soon
-                </Button>
+               Pozostań z nami w kontakcie i podaj swój adres kontaktowy. Promocje, artykuły branzowe, a takze snippetsy i pluginy do pobrania!
+                   </h6>
+                   <NewsletterSubscribe />
               </div>
             </div>
           </Col>
@@ -32,3 +26,4 @@ const CallToAction = () => {
 };
 
 export default CallToAction;
+

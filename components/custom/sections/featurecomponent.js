@@ -17,20 +17,7 @@ import Nodemodal from "../../modal/Nodemodal";
 const FeatureComponent = () => {
   return (
     <div>
-      <div className="spacer bg-light">
-        <Container>
-          <Row className="justify-content-center">
-            <Col md="7" className="text-center">
-              <h1 className="title font-bold">Features</h1>
-              <h6 className="subtitle">
-                Here you can check Demos we created based on WrapKit. Its quite
-                easy to Create your own dream website &amp; dashboard in
-                No-time.
-              </h6>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+  
       <div className="spacer feature4">
         <Container>
           <Row className="justify-content-center">
@@ -272,12 +259,10 @@ Nierelacyjne bazy danych!
                       Feature 3
                     </span>
                     <h3 className="title">
-                      The New way of Making Your Website in mins
+Design z nie z tego świata, wobec którego nie przejdziesz obojętnie!
                     </h3>
                     <p>
-                      You can relay on our amazing features list and also our
-                      customer services will be great experience. You will love
-                      it for sure.
+                    Wyróźnij się nieszablonowym stylem. Stwórz z nami interaktywną stronę, będąca swego rodzaju arcydziełem! Kojarz juź od pierwszego kontaktu klienta z marką z najlepszymi standardami!
                     </p>
                     <a
                       className="btn btn-danger btn-md btn-arrow m-t-20"

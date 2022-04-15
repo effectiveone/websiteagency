@@ -37,7 +37,7 @@ Przygotuj firmę na rewolucję cyfrową i zadbaj, aby być widoczny w sieci! Res
                 data-toggle="collapse"
                 href=""
               >
-                <span>Do you Need Help?</span>
+                <span>Potrzebujesz pomocy?</span>
               </a>
             </Col>
             <Col md="6">
@@ -47,30 +47,7 @@ Przygotuj firmę na rewolucję cyfrową i zadbaj, aby być widoczny w sieci! Res
           </Row>
         </Container>
       </div>
-      <div className="static-slider3">
-        <Container>
-          <Row className="justify-content-center">
-            <Col md="8" className="align-self-center text-center">
-              <h1 className="title">
-                I’m Johanthan Doe, an{" "}
-                <b className="font-bold">
-                  Entreprenuer, Designer & Front-end Developer
-                </b>
-                , Making{" "}
-              </h1>
-              <a
-                className="btn btn-danger btn-md btn-arrow m-t-20"
-                data-toggle="collapse"
-                href=""
-              >
-                <span>
-                  Checkout My Work <i className="ti-arrow-right"></i>
-                </span>
-              </a>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+      
     </div>
   );
 };

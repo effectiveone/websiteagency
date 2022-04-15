@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from "react";
 import { Row, Col, Container, Card } from "reactstrap";
 import Image from "next/image";
@@ -13,11 +12,9 @@ const BlogComponent = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md="8" className="text-center">
-              <h2 className="title">Recent Blogs</h2>
+              <h2 className="title">Co nowego na naszym blogu?</h2>
               <h6 className="subtitle">
-                You can relay on our amazing features list and also our customer
-                services will be great experience for you without doubt and in
-                no-time
+W świecie IT dzieje się nie mniej niz w kosmosie. Zaobserwuj z nami najnowsze trendy, pogłeb więdzę dotyczącą projektowania stron.
               </h6>
             </Col>
           </Row>

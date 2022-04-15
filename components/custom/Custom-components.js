@@ -25,12 +25,8 @@ const CustomComponents = () => {
 
       <FormBannerComponent />
       <FeatureComponent />
-      <PortfolioComponent />
-      <PricingComponent />
-      <TeamComponent />
-      <TestimonialComponent />
+  
       <BlogComponent />
-      <C2aComponent />
       <ContactComponent />
       <CallToAction />
     </div>

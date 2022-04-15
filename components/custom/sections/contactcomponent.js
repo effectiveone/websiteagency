@@ -16,11 +16,9 @@ const ContactComponent = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h1 className="title font-bold">Contact Form</h1>
+              <h1 className="title font-bold">Formularz kontaktowy</h1>
               <h6 className="subtitle">
-                Here you can check Demos we created based on WrapKit. Its quite
-                easy to Create your own dream website &amp; dashboard in
-                No-time.
+              Czas zejść na ziemie. Chociaz tworzymy nieziemskie strony, to komunikujemy się po ludzku. Napisz do nas, aby poznać nasze ceny i czas realizacji!
               </h6>
             </Col>
           </Row>
@@ -33,7 +31,7 @@ const ContactComponent = () => {
               <Row className="m-0">
                 <Col lg="8">
                   <div className="contact-box p-r-40">
-                    <h4 className="title">Quick Contact</h4>
+                    <h4 className="title">Szybki formularz</h4>
                     <Form>
                       <Row>
                         <Col lg="6">
@@ -62,7 +60,7 @@ const ContactComponent = () => {
                           >
                             <span>
                               {" "}
-                              Submit <i className="ti-arrow-right"></i>
+                              Wyślij <i className="ti-arrow-right"></i>
                             </span>
                           </Button>
                         </Col>
@@ -72,14 +70,14 @@ const ContactComponent = () => {
                 </Col>
                 <Col lg="4">
                   <div className="detail-box p-40 bg-info">
-                    <h2 className="text-white">Wrappixel Headquarters</h2>
+                    <h2 className="text-white">Effective Advisor</h2>
                     <p className="text-white m-t-30 op-8">
-                      251 546 9442
-                      <br /> info@wrappixel.com
+                      +48 785 474 107
+                      <br /> biuro@effectiveadvisor.eu
                     </p>
                     <p className="text-white op-8">
-                      601 Sherwood Ave.
-                      <br /> San Bernandino, CA 92404
+                      Ul. Komuny Paryskiej 110A
+                      <br /> 30-611 Kraków
                     </p>
                   </div>
                 </Col>
