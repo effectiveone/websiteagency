@@ -42,10 +42,7 @@ const FeatureComponent = () => {
                   </div>
                   <h5 className="font-medium">Landing Page</h5>
                   <p className="m-t-20">
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Praesent
-                    tristique pellentesque ipsum.
+                    Strona typu landing page jest wizytówka produktu lub usługi. Skupia się na ekspozycji tylko jednej informacji i naklania do działania. 
                   </p>
                   <a href="#" className="linking text-themecolor">
                     Explore More<i className="ti-arrow-right"></i>
@@ -63,10 +60,8 @@ const FeatureComponent = () => {
                   </div>
                   <h5 className="font-medium">Sklepy internetowe</h5>
                   <p className="m-t-20">
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Praesent
-                    tristique pellentesque ipsum.{" "}
+                  Tworzenie sklepów internetowych, które są skoncentrowane na realizacji celów sprzedażowych, zwiększeniu współczynnika konwersji, przyjazności i bezproblemowej ich obsłudze to nasza specjalność.
+                   Dzięki spersonalizowanej szacie graficznej opierającej się o najnowsze trendy internetowe, szeroko zakrojonej optymalizacji, przemyślanej budowie struktur zakupowych zaprowadzimy Twoich Klientów wprost do koszyka.
                   </p>
                   <a className="linking text-themecolor" href="#">
                     Explore More <i className="ti-arrow-right"></i>
@@ -84,13 +79,9 @@ const FeatureComponent = () => {
                   <div className="icon-round bg-light-info">
                     <i className="fa fa-star"></i>
                   </div>
-                  <h5 className="font-medium">Strony produktowe</h5>
+                  <h5 className="font-medium">Strony firmowe</h5>
                   <p className="m-t-20">
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Praesent
-                    tristique pellentesque ipsum.
-                  </p>
+                  kreuje wizerunek firmy poprzez profesjonalny wygląd spójny z identyfikacją /logo/ oraz dziedziną działalności - projekt dopasowany do rodzaju działalności firmy, głównie pod względem prezentacji oferty oraz dopasowaniu do głównych grup docelowych do których jest ona kierowana                  </p>
                   <a href="#" className="linking text-themecolor">
                     Explore More<i className="ti-arrow-right"></i>
                   </a>
@@ -105,12 +96,9 @@ const FeatureComponent = () => {
                   <div className="icon-round bg-light-info">
                     <i className="fa fa-check-circle"></i>
                   </div>
-                  <h5 className="font-medium">Strony firmowe </h5>
+                  <h5 className="font-medium">Blogi</h5>
                   <p className="m-t-20">
-                    You can relay on our amazing features list and also our
-                    customer services will be great experience. Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Praesent
-                    tristique pellentesque ipsum.{" "}
+               Wyraź siebie w internecie,zainwestuj w budowanie marki osobistej. 
                   </p>
                   <a className="linking text-themecolor" href="#">
                     Explore More <i className="ti-arrow-right"></i>

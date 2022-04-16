@@ -19,7 +19,7 @@ import CallToAction from "../call-to-action/CallToAction";
 const AllComponents = () => {
   return (
     <div>
-      <Banner />
+      <Banner data="Realizacje" />
       <Buttons />
       <Labels />
       <PagePagination />

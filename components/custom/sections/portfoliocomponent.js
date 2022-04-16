@@ -9,18 +9,16 @@ import img4 from "../../../assets/images/portfolio/img4.jpg";
 import img5 from "../../../assets/images/portfolio/img5.jpg";
 import img6 from "../../../assets/images/portfolio/img6.jpg";
 
-const PortfolioComponent = () => {
+const PortfolioComponent = (data) => {
   return (
     <div>
       <div className="spacer bg-light">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h1 className="title font-bold">Portfolio</h1>
+              <h1 className="title font-bold"> {data.data}</h1>
               <h6 className="subtitle">
-                Here you can check Demos we created based on WrapKit. Its quite
-                easy to Create your own dream website &amp; dashboard in
-                No-time.
+               {data.data}
               </h6>
             </Col>
           </Row>

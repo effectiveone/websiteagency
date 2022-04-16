@@ -11,8 +11,13 @@ import {
   NavItem,
   Container,
   NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
 } from "reactstrap";
 import logo from "../../assets/images/logos/effectivelogob.png";
+import Nextbar from "./Nextbar"
 
 
 
@@ -48,91 +53,10 @@ useEffect(() => {
         <Container className="po-relative">
         {colorChange ?    <Navbar className="navbar-expand-lg h6-nav-bar"   color="dark"
            fixed="top"
-           >            <NavbarBrand href="/">
-              <Image src={logo} alt="wrapkit" width="200" height="100"/>
-            </NavbarBrand>
-            <NavbarToggler onClick={toggle}>
-              <span className="ti-menu"></span>
-            </NavbarToggler>
-            <Collapse
-              isOpen={isOpen}
-              navbar
-              className="hover-dropdown ml-auto"
-              id="h6-info"
-            >
-              <Nav navbar className="ml-auto">
-                <NavItem>
-                  <Link href="/">
-                    <a
-                      className={
-                        router.pathname == "/"
-                          ? "text-white nav-link"
-                          : "nav-link"
-                      }
-                    >
-                      Custom Components
-                    </a>
-                  </Link>
-                </NavItem>
-                <NavItem>
-                  <Link href="/basic">
-                    <a
-                      className={
-                        router.pathname == "/basic"
-                          ? "text-white nav-link"
-                          : "nav-link"
-                      }
-                    >
-                      Basic-Components
-                    </a>
-                  </Link>
-                </NavItem>
-              </Nav>
-          
-            </Collapse>
-          </Navbar> : <Navbar className="navbar-expand-lg h6-nav-bar"             
->           <NavbarBrand href="/">
-              <Image src={logo} alt="wrapkit" width="200" height="100"/>
-            </NavbarBrand>
-            <NavbarToggler onClick={toggle}>
-              <span className="ti-menu"></span>
-            </NavbarToggler>
-            <Collapse
-              isOpen={isOpen}
-              navbar
-              className="hover-dropdown ml-auto"
-              id="h6-info"
-            >
-              <Nav navbar className="ml-auto">
-                <NavItem>
-                  <Link href="/">
-                    <a
-                      className={
-                        router.pathname == "/"
-                          ? "text-white nav-link"
-                          : "nav-link"
-                      }
-                    >
-                      Custom Components
-                    </a>
-                  </Link>
-                </NavItem>
-                <NavItem>
-                  <Link href="/basic">
-                    <a
-                      className={
-                        router.pathname == "/basic"
-                          ? "text-white nav-link"
-                          : "nav-link"
-                      }
-                    >
-                      Basic-Components
-                    </a>
-                  </Link>
-                </NavItem>
-              </Nav>
-          
-            </Collapse>
+           >      
+           <Nextbar/>
+           </Navbar>    : <Navbar className="navbar-expand-lg h6-nav-bar"             
+>           <Nextbar/>
           </Navbar> }
         </Container>
       </div>
