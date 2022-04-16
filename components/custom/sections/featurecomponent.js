@@ -11,6 +11,7 @@ import Reactmodal from "../../../components/modal/Reactmodal.js"
 import Mangodbmodal from "../../modal/Mangodbmodal";
 import Wordpressmodal from "../../modal/Wordpressmodal";
 import Nodemodal from "../../modal/Nodemodal";
+import Link from "next/link";
 
 
 
@@ -40,13 +41,10 @@ const FeatureComponent = () => {
                   <div className="icon-round bg-light-info">
                     <i className="fa fa-star"></i>
                   </div>
-                  <h5 className="font-medium">Landing Page</h5>
+                  <h5 className="font-medium">Strony www</h5>
                   <p className="m-t-20">
-                    Strona typu landing page jest wizytówka produktu lub usługi. Skupia się na ekspozycji tylko jednej informacji i naklania do działania. 
-                  </p>
-                  <a href="#" className="linking text-themecolor">
-                    Explore More<i className="ti-arrow-right"></i>
-                  </a>
+Wspólnie wybierzemy sposród wielu rodzajów stron internetowych - one page, landing page, wizytówka, blog, strona firmowa, produktowa - taką formę wyrazarania siebie w internecie, zeby byla najbardziej korzystna.                   </p>
+<Link href="/page"><a  className="linking text-themecolor">Czytaj dalej..</a></Link>
                 </CardBody>
               </Card>
             </Col>
@@ -60,12 +58,9 @@ const FeatureComponent = () => {
                   </div>
                   <h5 className="font-medium">Sklepy internetowe</h5>
                   <p className="m-t-20">
-                  Tworzenie sklepów internetowych, które są skoncentrowane na realizacji celów sprzedażowych, zwiększeniu współczynnika konwersji, przyjazności i bezproblemowej ich obsłudze to nasza specjalność.
-                   Dzięki spersonalizowanej szacie graficznej opierającej się o najnowsze trendy internetowe, szeroko zakrojonej optymalizacji, przemyślanej budowie struktur zakupowych zaprowadzimy Twoich Klientów wprost do koszyka.
-                  </p>
-                  <a className="linking text-themecolor" href="#">
-                    Explore More <i className="ti-arrow-right"></i>
-                  </a>
+ Posiadamy liczne rozwiązania e-commerce w zaleznosci od wielkości sklepu internetowego. 
+                   </p>
+                   <Link href="/sklepy"><a className="linking text-themecolor">Czytaj dalej..</a></Link> 
                 </CardBody>
               </Card>
             </Col>
@@ -79,30 +74,23 @@ const FeatureComponent = () => {
                   <div className="icon-round bg-light-info">
                     <i className="fa fa-star"></i>
                   </div>
-                  <h5 className="font-medium">Strony firmowe</h5>
+                  <h5 className="font-medium">Aplikacje webowe</h5>
                   <p className="m-t-20">
-                  kreuje wizerunek firmy poprzez profesjonalny wygląd spójny z identyfikacją /logo/ oraz dziedziną działalności - projekt dopasowany do rodzaju działalności firmy, głównie pod względem prezentacji oferty oraz dopasowaniu do głównych grup docelowych do których jest ona kierowana                  </p>
-                  <a href="#" className="linking text-themecolor">
-                    Explore More<i className="ti-arrow-right"></i>
-                  </a>
+Potrafimy zbudować w oparciu o zaawansowane frameworki proste aplikacje webowe: ogłoszenia, kalkulatory/konfiguratory, czaty.  </p>
+<Link href="/aplikacje"><a  className="linking text-themecolor">Czytaj dalej..</a></Link>
                 </CardBody>
               </Card>
             </Col>
-
-            
             <Col md="6" className="wrap-feature4-box">
               <Card>
                 <CardBody>
                   <div className="icon-round bg-light-info">
                     <i className="fa fa-check-circle"></i>
                   </div>
-                  <h5 className="font-medium">Blogi</h5>
+                  <h5 className="font-medium">Pozycjonowanie stron internetowych (SEO)</h5>
                   <p className="m-t-20">
-               Wyraź siebie w internecie,zainwestuj w budowanie marki osobistej. 
-                  </p>
-                  <a className="linking text-themecolor" href="#">
-                    Explore More <i className="ti-arrow-right"></i>
-                  </a>
+      Zbudujemy silne fundamenty pod działania SEO, przez wykonania analizy rynku, dobranie odpowiednich słów kluczowych, uzycie wysokiej jakości frameworków.     </p>
+      <Link href="/seo"><a className="linking text-themecolor">Czytaj dalej..</a></Link>
                 </CardBody>
               </Card>
             </Col>

@@ -23,11 +23,11 @@ Z nami Twoja marka wystrzeli w kosmos       !
               href="https://wrappixel.com/templates/nextkit-nextjs-free-uikit"
               className="btn btn-danger m-r-20 btn-md m-t-30 "
             >
-              Download Free
+              Skontaktuj się juz teraz
             </a>
             <Link href="/#coming">
               <a className="btn btn-md m-t-30  btn-outline-light ">
-                Upgrade To Pro
+                Poznaj schemat współpracy
               </a>
             </Link>
           </Col>

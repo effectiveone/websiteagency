@@ -53,7 +53,7 @@ useEffect(() => {
         <Container className="po-relative">
         {colorChange ?    <Navbar className="navbar-expand-lg h6-nav-bar"   color="dark"
            fixed="top"
-           >      
+           expand="xl"          >      
            <Nextbar/>
            </Navbar>    : <Navbar className="navbar-expand-lg h6-nav-bar"             
 >           <Nextbar/>

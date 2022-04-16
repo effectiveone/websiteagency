@@ -56,7 +56,9 @@ useEffect(() => {
     className="hover-dropdown ml-auto"
     id="h6-info"
   >
-    <Nav navbar className="ml-auto">
+    <Nav navbar className="ml-auto"
+    pills
+    >
       <NavItem>
         <Link href="/">
           <a
@@ -112,7 +114,32 @@ Sklepy          </a>
       </NavItem>          
   </DropdownItem>
   <DropdownItem>
-   Pozycjonowanie
+  <NavItem>
+        <Link href="/seo">
+          <a
+            className={
+              router.pathname == "/seo"
+                ? "effective-text nav-link"
+                : "nav-link"
+            }
+          >
+SEO          </a>
+        </Link>
+      </NavItem>        
+  </DropdownItem>
+  <DropdownItem>
+  <NavItem>
+        <Link href="/aplikacje">
+          <a
+            className={
+              router.pathname == "/aplikacje"
+                ? "effective-text nav-link"
+                : "nav-link"
+            }
+          >
+Aplikacje webowe          </a>
+        </Link>
+      </NavItem>        
   </DropdownItem>
   <DropdownItem divider />
   <DropdownItem>
@@ -136,6 +163,32 @@ Sklepy          </a>
         </Link>
       </NavItem>
     </Nav>
+    <NavItem>
+        <Link href="/blog">
+          <a
+            className={
+              router.pathname == "/blog"
+                ? "text-white nav-link"
+                : "nav-link"
+            }
+          >
+          Blog
+          </a>
+        </Link>
+      </NavItem>
+      <NavItem>
+        <Link href="/kontakt">
+          <a
+            className={
+              router.pathname == "/kontakt"
+                ? "text-white nav-link"
+                : "nav-link"
+            }
+          >
+          Kontakt
+          </a>
+        </Link>
+      </NavItem>
 
   </Collapse>
 </>  )
