@@ -8,7 +8,7 @@ import Banner from "../../banner/Banner";
 
 const Importkontakt = () => {
   return (<>
-    <Banner data="Kontakt" pageone="Skontaktuj się z nami" pagetwo="xxx"/>
+    <Banner data="Kontakt" pageone="Skontaktuj się z nami" subcontent="xxx"/>
     <div>
     <div className="blog-home2 spacer">
       <Container>

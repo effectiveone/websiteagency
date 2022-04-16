@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sendgrid/mail": "^7.6.2",
     "bootstrap": "4.6.0",
     "dompurify": "^2.3.6",
     "next": "11.1.2",
