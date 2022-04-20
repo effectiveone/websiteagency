@@ -5,10 +5,10 @@ export default function Home({posts}) {
   return (
     <div>
       <Head>
-        <title>NextJs UI kit | Free UI kit built with bootstrap</title>
+        <title>Effective Advisor - agencja marketingowa</title>
         <meta
           name="description"
-          content="NextJs UI kit | Free UI kit built with bootstrap"
+          content="Effective Advisor - agencja marketingowa"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
