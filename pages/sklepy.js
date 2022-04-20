@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Components from "../components/sklepy/Importsklepy";
+import Components from "../components/podstrony/sklepy/Importsklepy";
 
 export default function Sklepy() {
   return (

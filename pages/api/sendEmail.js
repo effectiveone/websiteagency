@@ -1,5 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
+
 const sgMail = require('@sendgrid/mail');
 
 export default async function SendEmail(req, res) {
@@ -27,4 +28,6 @@ export default async function SendEmail(req, res) {
     console.log('ERROR', error);
     res.status(400).send({ message: error });
   }
+
+
 }

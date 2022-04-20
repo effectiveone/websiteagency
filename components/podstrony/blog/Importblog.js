@@ -6,7 +6,7 @@ import img2 from "../../../assets/images/blog/blog-home/img2.jpg";
 import img3 from "../../../assets/images/blog/blog-home/img1.jpg";
 import Banner from "../../banner/Banner";
 
-const Importblog = () => {
+const Importblog = ({posts}) => {
   return (<>
       <Banner data="Blog" pageone="Dowiedz się co się mówi w świecie IT" />
 
@@ -22,82 +22,32 @@ W świecie IT dzieje się nie mniej niz w kosmosie. Zaobserwuj z nami najnowsze 
           </Col>
         </Row>
         <Row className="m-t-40 justify-content-center">
-          <Col lg="4" md="6">
-            <Card>
-              <a href="#">
-                <Image
-                  className="card-img-top"
-                  src={img1}
-                  alt="wrappixel kit"
-                />
-              </a>
-              <div className="date-pos bg-info-gradiant">
-                Oct<span>23</span>
-              </div>
-              <h5 className="font-medium m-t-30">
-                <a href="#" className="link">
-                  You should have eagle’s eye on new trends and techonogies
-                </a>
-              </h5>
-              <p className="m-t-20">
-                Business Park, Opp. Corns Sam Restaurant, New Yoark, US
-              </p>
-              <a href="#" className="linking text-themecolor m-t-10">
-                Learn More <i className="ti-arrow-right"></i>
-              </a>
-            </Card>
-          </Col>
-          <Col lg="4" md="6">
-            <Card>
-              <a href="#">
-                <Image
-                  className="card-img-top"
-                  src={img2}
-                  alt="wrappixel kit"
-                />
-              </a>
-              <div className="date-pos bg-info-gradiant">
-                Oct<span>23</span>
-              </div>
-              <h5 className="font-medium m-t-30">
-                <a href="#" className="link">
-                  New Seminar on Newest Food Recipe from World’s Best
-                </a>
-              </h5>
-              <p className="m-t-20">
-                Business Park, Opp. Corns Sam Restaurant, New Yoark, US
-              </p>
-              <a href="#" className="linking text-themecolor m-t-10">
-                Learn More <i className="ti-arrow-right"></i>
-              </a>
-            </Card>
-          </Col>
-          <Col lg="4" md="6">
-            <Card>
-              <a href="#">
-                <Image
-                  className="card-img-top"
-                  src={img3}
-                  alt="wrappixel kit"
-                />
-              </a>
-              <div className="date-pos bg-info-gradiant">
-                Oct<span>23</span>
-              </div>
-              <h5 className="font-medium m-t-30">
-                <a href="#" className="link">
-                  Learn from small things to create something bigger.
-                </a>
-              </h5>
-              <p className="m-t-20">
-                Business Park, Opp. Corns Sam Restaurant, New Yoark, US
-              </p>
-              <a href="#" className="linking text-themecolor m-t-10">
-                Learn More <i className="ti-arrow-right"></i>
-              </a>
-            </Card>
-          </Col>
-        </Row>
+        {posts.map((post) => (
+
+<Col lg="4" md="6">
+  <Card>
+
+
+    <h5 className="font-medium m-t-30">
+      <a href="#" className="link">
+        {post.title.rendered}
+        
+      </a>
+    </h5>
+    <div className="gradiant">
+{post.date}
+    </div>
+    <p className="m-t-20">
+    {  post.excerpt.rendered}
+
+    </p>
+    <a href="#" className="linking text-themecolor m-t-10">
+      Czytaj więcej <i className="ti-arrow-right"></i>
+    </a>
+  </Card>
+</Col>
+))}
+            </Row>
       </Container>
     </div>
   </div>
@@ -107,3 +57,4 @@ W świecie IT dzieje się nie mniej niz w kosmosie. Zaobserwuj z nami najnowsze 
 };
 
 export default Importblog;
+

@@ -19,7 +19,11 @@ const FormBannerComponent = () => {
            By osiągnąć wielkich rzeczy nie wystarczą spontaniczne działania! Zbuduj z nami plan marketingowy na kolejne miesiące.Reklama to dzwignia handlu? U nas to rakieta! 
            <br/> 
                   </p>
+
+                
+
                   <Form className="m-t-40">
+                
                     <input
                       type="text"
                       name="email"

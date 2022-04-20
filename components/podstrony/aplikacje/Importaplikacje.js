@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../../banner/Banner";
+
 // sections for this page
 import PortfolioComponent from "../../custom/sections/portfoliocomponent";
 import Hearofsections from "../../custom/sections/hearofsections";

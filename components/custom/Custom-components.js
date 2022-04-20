@@ -17,7 +17,7 @@ import C2aComponent from "./sections/c2acomponent";
 import ContactComponent from "./sections/contactcomponent";
 import CallToAction from "../../components/call-to-action/CallToAction";
 
-const CustomComponents = () => {
+const CustomComponents = ({posts}) => {
   return (
     <div>
       <Banner2 />
@@ -26,7 +26,7 @@ const CustomComponents = () => {
       <FormBannerComponent />
       <FeatureComponent />
   
-      <BlogComponent />
+      <BlogComponent posts={posts} />
       <ContactComponent />
       <CallToAction />
     </div>
